@@ -1,0 +1,67 @@
+*,*:after,*:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.calc-container{
+    width: 500px;
+    padding: 10px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+}
+.calc-container table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.calc-container table tr td,
+.calc-container table tr th{
+    width: 25%;
+    border: 5px solid transparent;
+    background: rgba(255,255,255,0.3);
+    background-clip: padding-box;
+    padding: 20px 10px;
+    font-size: 3rem;
+    font-weigth: 600;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.3s ease-out;
+    position: relative;
+}
+
+.calc-container table tr th{
+    background: rgba(255,255,255,0.3);
+    text-align: right;
+    background-clip: padding-box;
+    font-size: 3rem;
+    padding: 25px 10px;
+    color: #444;
+    cursor: default;
+
+}
+
+.calc-container table tr td:hover{
+    background: rgba(255,255,255,0.7);
+    background-clip: padding-box;
+    color: #666;
+}
+
+.symbl{
+    pointer-events: none;
+}

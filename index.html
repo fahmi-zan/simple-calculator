@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator Simple</title>
+</head>
+<body>
+    <div class="calc-container">
+        <table>
+            <tr>
+                <th colspan="4">
+                    &nbsp;
+                    <span class="valueOne"></span>
+                    <span class="valueSymbl"></span>
+                    <span class="valueTwo"></span>
+                </th>
+            </tr>
+            <tr>
+                <td class="x1 first-active">7</td>
+                <td class="x1 first-active">8</td>
+                <td class="x1 first-active">9</td>
+                <td class="symbl">&#247;</td>
+            </tr>
+            <tr>
+                <td class="x1 first-active">4</td>
+                <td class="x1 first-active">5</td>
+                <td class="x1 first-active">6</td>
+                <td class="symbl">&#215;</td>
+            </tr>
+            <tr>
+                <td class="x1 first-active">1</td>
+                <td class="x1 first-active">2</td>
+                <td class="x1 first-active">3</td>
+                <td class="symbl">-</td>
+            </tr>
+            <tr>
+                <td class="x1 first-active">.</td>
+                <td class="x1 first-active">0</td>
+                <td class="x1 first-active">00</td>
+                <td class="symbl" rowspan="2">+</td>
+            </tr>
+            <tr>
+                <td id="clear">C</td>
+                <td colspan="2" id="equal">=</td>
+              
+            </tr>
+        </table>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
